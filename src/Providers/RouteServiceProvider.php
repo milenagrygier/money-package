@@ -10,6 +10,6 @@ class RouteServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        $this->loadRoutesFrom(base_path('routes/api.php'));
+        $this->loadRoutesFrom(dirname(__DIR__,1).'/routes/api.php'));
     }
 }
