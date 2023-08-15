@@ -6,6 +6,7 @@ namespace Money\MoneyPackage\Controllers;
 
 use Illuminate\Routing\Controller;
 use Illuminate\Http\JsonResponse;
+use Money\MoneyPackage\Services\BaseMoneyService;
 
 class MoneyController extends Controller
 {
