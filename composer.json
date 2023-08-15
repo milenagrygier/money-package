@@ -39,7 +39,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Money\\MoneyPackage\\Providers\\MoneyServiceProvider"
+                "Money\\MoneyPackage\\Providers\\MoneyPackageServiceProvider"
             ]
         }
     },
