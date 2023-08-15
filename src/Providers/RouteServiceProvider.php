@@ -6,7 +6,7 @@ namespace Money\MoneyPackage\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class MoneyServiceProvider extends ServiceProvider
+class RouteServiceProvider extends ServiceProvider
 {
     public function map(): void
     {
