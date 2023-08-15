@@ -8,8 +8,8 @@ use Illuminate\Support\ServiceProvider;
 
 class RouteServiceProvider extends ServiceProvider
 {
-    public function map(): void
+    public function boot(): void
     {
-        Route::group(base_path('routes/api.php'));
+        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
     }
 }
