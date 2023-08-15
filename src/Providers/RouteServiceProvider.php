@@ -10,6 +10,6 @@ class RouteServiceProvider extends ServiceProvider
 {
     public function map(): void
     {
-        Route::group(app_path('Routes/api.php'));
+        Route::group(base_path('routes/api.php'));
     }
 }
