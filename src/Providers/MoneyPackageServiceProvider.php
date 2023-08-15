@@ -7,7 +7,7 @@ namespace Money\MoneyPackage\Providers;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Contracts\Support\DeferrableProvider;
 
-class MoneyServiceProvider extends ServiceProvider implements DeferrableProvider
+class MoneyPackageServiceProvider extends ServiceProvider implements DeferrableProvider
 {
     public function register(): void
     {
