@@ -10,9 +10,6 @@ class RouteServiceProvider extends ServiceProvider
 {
     public function map(): void
     {
-        Route::domain($this->parsedShortenerURL['host'])
-            ->prefix($this->parsedShortenerURL['path'] ?? null)
-            ->middleware('web')
-            ->group(base_path('Routes/api.php'));
+        Route::group(app_path('Routes/api.php'));
     }
 }
