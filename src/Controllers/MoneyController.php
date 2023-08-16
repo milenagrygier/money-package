@@ -17,6 +17,6 @@ class MoneyController extends Controller
 
     public function show(): JsonResponse
     {
-        return response()->json('test', ['int' => $this->baseMoneyService->randomInt()]);
+        return response()->json(['int' => $this->baseMoneyService->randomInt()]);
     }
 }
